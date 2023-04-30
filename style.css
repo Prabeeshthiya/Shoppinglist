@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+*
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #c49393;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-weight: 30px;
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.edit-mode {
+    color: #ccc;
+}
+
+.form-input {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-input-filter {
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+  }
+
+  .btn {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;  
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+.btn-link {
+    font-family: 'Bebas Neue', cursive;
+font-size: 16px;
+background-color: transparent;
+color: #333;
+border: none;
+padding: 0;
+cursor: pointer;
+}
+
+.btn-clear {
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-clear:hover {
+    background-color: #f1f1f1;
+}
+
+.txt-red {
+    color: red;
+}
+
+.items {
+    margin-top: 20px;
+    display: flex;
+}
+
+.items li {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width : 500px) {
+    .items li {
+        width: 100%;
+    }
+}
